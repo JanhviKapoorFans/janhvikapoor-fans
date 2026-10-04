@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Janhvi Fans — Membership</title>
+<style>
+*{box-sizing:border-box}body{margin:0;font-family:Arial,sans-serif;background:#faf7f3;color:#171717}
+header{padding:20px 7%;display:flex;justify-content:space-between;align-items:center;background:#fff;border-bottom:1px solid #eee;position:sticky;top:0;z-index:5}
+.logo{font-size:22px;font-weight:800}.logo span{color:#9a6848}
+nav a{margin-left:20px;text-decoration:none;color:#222;font-size:14px;font-weight:600}
+.hero{padding:72px 7%;text-align:center;background:linear-gradient(135deg,#fff,#f1e5da)}
+.badge{display:inline-block;padding:8px 14px;border-radius:20px;background:#fff;border:1px solid #e7ddd4;font-size:12px;font-weight:700}
+.hero h1{font-size:48px;margin:18px 0 14px}.hero p{font-size:18px;color:#666;max-width:680px;margin:0 auto 28px;line-height:1.6}
+.btn{display:inline-block;padding:14px 25px;border-radius:30px;background:#171717;color:#fff;text-decoration:none;font-weight:700;transition:.2s}
+.btn:hover{transform:translateY(-2px)}
+.section{padding:55px 7%}.section h2{text-align:center;font-size:32px;margin-bottom:35px}
+.cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:25px;max-width:1050px;margin:auto}
+.product{background:#fff;border:1px solid #eee;border-radius:20px;padding:22px;box-shadow:0 8px 25px #0000000b}
+.membership-card{height:165px;border-radius:17px;padding:22px;color:#fff;background:linear-gradient(135deg,#171717,#624b3b);margin-bottom:20px;position:relative;overflow:hidden}
+.membership-card:after{content:"✦";position:absolute;right:22px;bottom:12px;font-size:38px;opacity:.3}
+.membership-card small{opacity:.75;letter-spacing:1px}.membership-card h3{margin:28px 0 5px;font-size:23px}
+.product p{color:#666;line-height:1.5}.product button{width:100%;padding:13px;border:0;border-radius:12px;background:#171717;color:white;font-weight:bold;cursor:pointer}
+.product button:hover{opacity:.85}
+.about{text-align:center;max-width:760px;margin:auto;line-height:1.7;color:#666}
+.steps{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:18px;max-width:900px;margin:auto}
+.step{background:#fff;padding:22px;border-radius:16px;border:1px solid #eee;text-align:center}
+.num{width:38px;height:38px;line-height:38px;border-radius:50%;background:#171717;color:#fff;margin:0 auto 12px;font-weight:bold}
+.notice{max-width:760px;margin:25px auto 0;padding:15px;border-radius:12px;background:#f0ebe6;color:#777;font-size:12px;text-align:center}
+footer{text-align:center;padding:32px;background:#171717;color:#aaa;font-size:13px}
+footer a{color:#fff}
+@media(max-width:600px){.hero h1{font-size:35px}nav{display:none}.section{padding:45px 5%}}
+</style>
+</head>
+<body>
+
+<header>
+<div class="logo">Janhvi <span>Fans</span></div>
+<nav>
+<a href="#membership">Membership</a>
+<a href="#how">How It Works</a>
+<a href="https://x.com/JanhviKOfficial" target="_blank" rel="noopener">Follow on X ↗</a>
+</nav>
+</header>
+
+<section class="hero">
+<span class="badge">INDEPENDENT FAN COMMUNITY</span>
+<h1>Join the Janhvi Kapoor Fan Community</h1>
+<p>Follow our X fan page and become part of the community. Eligible followers can receive a personalized digital fan membership card.</p>
+<a class="btn" href="https://x.com/JanhviKOfficial" target="_blank" rel="noopener">Follow @JanhviKOfficial on X</a>
+</section>
+
+<section class="section" id="membership">
+<h2>Fan Membership Cards</h2>
+<div class="cards">
+<div class="product">
+<div class="membership-card">
+<small>FAN COMMUNITY MEMBER</small>
+<h3>JANHVI FANS</h3>
+<div>DIGITAL MEMBER • 2026</div>
+</div>
+<h3>Digital Fan Card</h3>
+<p>A personalized digital fan card for members of our independent Janhvi Kapoor fan community.</p>
+<button onclick="follow()">Follow on X to Join</button>
+</div>
+
+<div class="product">
+<div class="membership-card" style="background:linear-gradient(135deg,#79573f,#c79a70)">
+<small>PREMIUM COMMUNITY</small>
+<h3>JANHVI FANS</h3>
+<div>PREMIUM MEMBER • 2026</div>
+</div>
+<h3>Premium Fan Card</h3>
+<p>A premium digital membership card with your name and community member details.</p>
+<button onclick="follow()">Follow on X to Join</button>
+</div>
+</div>
+</section>
+
+<section class="section" id="how">
+<h2>How Membership Works</h2>
+<div class="steps">
+<div class="step"><div class="num">1</div><h3>Follow</h3><p>Follow our X fan page.</p></div>
+<div class="step"><div class="num">2</div><h3>Register</h3><p>Submit your fan membership details when registration opens.</p></div>
+<div class="step"><div class="num">3</div><h3>Get Your Card</h3><p>Receive your personalized digital fan membership card.</p></div>
+</div>
+<div class="notice">This is an independent fan community. It is not the official website, account, management, or representation of Janhvi Kapoor.</div>
+</section>
+
+<section class="section">
+<h2>About the Community</h2>
+<p class="about">Created for fans to connect, celebrate Janhvi Kapoor's work, and build a positive fan community across languages and regions. Follow the X page to stay updated about membership registration and fan activities.</p>
+</section>
+
+<footer>
+<div>© 2026 Janhvi Fans Community</div>
+<div style="margin-top:10px"><a href="https://x.com/JanhviKOfficial" target="_blank" rel="noopener">@JanhviKOfficial on X</a></div>
+</footer>
+
+<script>
+function follow(){
+  window.open("https://x.com/JanhviKOfficial","_blank","noopener");
+}
+</script>
+</body>
+</html>
