@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Janhvi Kapoor Fans — Membership</title>
+<style>
+*{box-sizing:border-box}body{margin:0;font-family:Arial,sans-serif;background:#faf7f3;color:#171717}
+header{padding:22px 7%;display:flex;justify-content:space-between;align-items:center;background:#fff;border-bottom:1px solid #eee}
+.logo{font-size:22px;font-weight:800}.logo span{color:#a06a45}
+nav a{margin-left:22px;text-decoration:none;color:#222;font-size:14px}
+.hero{padding:75px 7%;text-align:center;background:linear-gradient(135deg,#fff,#f3e9df)}
+.hero h1{font-size:48px;margin:0 0 15px}.hero p{font-size:18px;color:#666;max-width:650px;margin:0 auto 28px;line-height:1.6}
+.btn{display:inline-block;padding:14px 25px;border-radius:30px;background:#171717;color:#fff;text-decoration:none;font-weight:700}
+.section{padding:55px 7%}.section h2{text-align:center;font-size:32px;margin-bottom:35px}
+.cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:25px;max-width:1000px;margin:auto}
+.product{background:#fff;border:1px solid #eee;border-radius:20px;padding:22px;box-shadow:0 8px 25px #0000000b}
+.membership-card{height:155px;border-radius:16px;padding:22px;color:white;background:linear-gradient(135deg,#171717,#604936);margin-bottom:20px}
+.membership-card small{opacity:.75}.membership-card h3{margin:25px 0 5px;font-size:22px}
+.price{font-size:25px;font-weight:800;margin:15px 0}
+.product button{width:100%;padding:13px;border:0;border-radius:12px;background:#171717;color:white;font-weight:bold;cursor:pointer}
+.about{text-align:center;max-width:750px;margin:auto;line-height:1.7;color:#666}
+footer{text-align:center;padding:30px;background:#171717;color:#aaa;font-size:13px}
+.notice{font-size:12px;color:#888;margin-top:18px}
+@media(max-width:600px){.hero h1{font-size:35px}nav{display:none}}
+</style>
+</head>
+<body>
+<header>
+<div class="logo">Janhvi <span>Fans</span></div>
+<nav><a href="#membership">Membership</a><a href="#about">About</a></nav>
+</header>
+
+<section class="hero">
+<h1>Join the Janhvi Kapoor Fan Community</h1>
+<p>Become a member, get your personalized fan membership card, and be part of a growing community of Janhvi Kapoor fans.</p>
+<a class="btn" href="#membership">Get Your Fan Card</a>
+</section>
+
+<section class="section" id="membership">
+<h2>Fan Membership Cards</h2>
+<div class="cards">
+<div class="product">
+<div class="membership-card">
+<small>FAN COMMUNITY MEMBER</small>
+<h3>JANHVI FANS</h3>
+<div>MEMBER • 2026</div>
+</div>
+<h3>Digital Fan Card</h3>
+<p>Personalized digital membership card for community members.</p>
+<div class="price">₹199</div>
+<button onclick="join('Digital Fan Card')">Join Now</button>
+</div>
+
+<div class="product">
+<div class="membership-card" style="background:linear-gradient(135deg,#8b6245,#d0a77f)">
+<small>PREMIUM FAN MEMBER</small>
+<h3>JANHVI FANS</h3>
+<div>PREMIUM • 2026</div>
+</div>
+<h3>Premium Fan Card</h3>
+<p>Premium-style digital card with your name and member number.</p>
+<div class="price">₹299</div>
+<button onclick="join('Premium Fan Card')">Get Card</button>
+</div>
+</div>
+</section>
+
+<section class="section" id="about">
+<h2>About the Community</h2>
+<p class="about">This is an independent Janhvi Kapoor fan community created for fans to connect, celebrate her work, and share updates. This website is not affiliated with or officially endorsed by Janhvi Kapoor or her management team.</p>
+</section>
+
+<footer>
+© 2026 Janhvi Fans Community · Independent Fan Page
+<div class="notice">Membership purchases should only be enabled after adding your verified payment provider and clear refund/contact details.</div>
+</footer>
+
+<script>
+function join(product){
+  alert("Selected: " + product + "\n\nAdd your payment gateway and member-registration form here.");
+}
+</script>
+</body>
+</html>
